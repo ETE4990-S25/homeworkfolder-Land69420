@@ -15,3 +15,8 @@ print(deck)>>>
 
 deck = [(r,s) for s in '♥♦♠♣' for r in range(1,14)]
 print(deck)
+
+
+things = []
+for i in range(5):
+    print(2*(i)+1)
