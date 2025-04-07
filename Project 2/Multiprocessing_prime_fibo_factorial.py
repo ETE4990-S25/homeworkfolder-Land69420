@@ -101,8 +101,8 @@ if __name__ == "__main__":
     hp = highest_prime(time_limit= 1, number_of_threads= 10)
     print(hp)
 
-    high_fibo = nth_fibo(10)
+    high_fibo = nth_fibo(hp)
     print(high_fibo)
 
-    high_factorial = factorial(10, 10)
+    high_factorial = factorial(hp, 10)
     print(high_factorial)
