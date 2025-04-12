@@ -1,6 +1,10 @@
 import threading
 import time
 
+# keeps the large numbers from breaking code
+import sys
+sys.set_int_max_str_digits(0)
+
 # large prime part of project
 def is_prime(n):
     if n <= 1:
@@ -37,7 +41,7 @@ def highest_prime(time_limit, number_of_threads):
     threads = [
         threading.Thread(
             target = primes_in_range,
-            args = (2*i+1 , number_of_threads * 2, shared_result, time_limit)
+            args = (2*i+1 , number_of_threads * 2, shared_result, time_limit) # only checks odd numbers, splits threads by alternating which thread checks which number.
         )
         for i in range(number_of_threads)
     ]
