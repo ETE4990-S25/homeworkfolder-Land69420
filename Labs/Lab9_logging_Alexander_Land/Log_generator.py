@@ -101,9 +101,6 @@ list_of_potential_errors = [
     "Your ambition has been archived or deleted.",
     "Yes, everyone saw that. No, you can\'t undo it."
 ]
-services = ["sqldb", "frontend", "frontend_js", "frontend_flask", "frontend_flask_layer"]
-
-loglevels = ["critical", "error", "warning", "info", "debug"]
 
 def random_error_level(logger, message):
     """takes in the logger and message and gives it a random error level"""
@@ -120,6 +117,7 @@ for i in range(50):
     random_error_message = list_of_potential_errors[random.randint(0, len(list_of_potential_errors)-1)]
     
     match random.randint(0,4):
+        # assigns puts random logger into the random error level to give a randomized error source, level, and message.
         case 0: random_error_level(sqldb_Log, random_error_message)
         case 1: random_error_level(frontend_Log, random_error_message)
         case 2: random_error_level(frontend_js_Log, random_error_message)
