@@ -1,0 +1,13 @@
+2025-04-22 16:18:43,550 | frontend.flask.layer |ERROR | This seemed like a good idea 3 hours ago.
+2025-04-22 16:18:43,551 | frontend.flask.layer |WARNING | Something went wrong. Probably your fault.
+2025-04-22 16:18:43,551 | frontend.flask.layer |WARNING | Sanity module missing.
+2025-04-22 16:18:43,552 | frontend.flask.layer |CRITICAL | Uncaught exception in user behavior.
+2025-04-22 16:18:43,554 | frontend.flask |WARNING | No idea what you're doing.
+2025-04-22 16:18:43,554 | frontend.flask.layer |ERROR | This seemed like a good idea 3 hours ago.
+2025-04-22 16:18:43,556 | frontend.flask.layer |INFO | Confidence.exe unexpectedly closed.
+2025-04-22 16:18:43,557 | frontend.flask.layer |ERROR | You can't just do that because you feel like it.
+2025-04-22 16:18:43,557 | frontend.flask.layer |WARNING | Something went wrong. Probably your fault.
+2025-04-22 16:18:43,560 | frontend.flask.layer |INFO | You can't just do that because you feel like it.
+2025-04-22 16:18:43,560 | frontend.flask.layer |WARNING | The system has given up. Please proceed manually.
+2025-04-22 16:18:43,560 | frontend.flask.layer |ERROR | Something went wrong. Probably your fault.
+2025-04-22 16:18:43,561 | frontend.flask.layer |WARNING | Too many recursive thoughts.

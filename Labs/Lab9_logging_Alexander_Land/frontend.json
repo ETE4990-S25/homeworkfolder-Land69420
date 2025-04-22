@@ -1,0 +1,36 @@
+{
+    "ERROR": {
+        "This seemed like a good idea 3 hours ago.": 2,
+        "Too many browser tabs. One is now sentient.": 1,
+        "Your ambition has been archived or deleted.": 2,
+        "You can't just do that because you feel like it.": 1,
+        "You've been idle for 3 hours. We assumed you were crying.": 1,
+        "Yes, everyone saw that. No, you can't undo it.": 1,
+        "Uncaught exception in user behavior.": 1,
+        "Something went wrong. Probably your fault.": 1
+    },
+    "WARNING": {
+        "Something went wrong. Probably your fault.": 2,
+        "Sanity module missing.": 1,
+        "No idea what you're doing.": 1,
+        "Thought process overflowed into dream state.": 1,
+        "Uncaught exception in user behavior.": 1,
+        "Tried to operate before coffee. Not permitted.": 1,
+        "Recollection of why you walked into the room not available.": 1,
+        "The system has given up. Please proceed manually.": 1,
+        "Too many recursive thoughts.": 2
+    },
+    "INFO": {
+        "Thought process overflowed into dream state.": 2,
+        "No idea what you're doing.": 1,
+        "Your ambition has been archived or deleted.": 1,
+        "Confidence.exe unexpectedly closed.": 3,
+        "Task completion not found.": 1,
+        "Something went wrong. Probably your fault.": 1,
+        "You can't just do that because you feel like it.": 1
+    },
+    "CRITICAL": {
+        "Too many recursive thoughts.": 1,
+        "Uncaught exception in user behavior.": 1
+    }
+}

@@ -7,6 +7,10 @@ logging.basicConfig(
     format= '%(asctime)s | %(name)s |%(levelname)s | %(message)s' # idk if asctime works
     )
 
+formatter = logging.Formatter(
+    fmt=('%(asctime)s | %(name)s |%(levelname)s | %(message)s' 
+    )
+)
 
 # loggers
 sqldb_Log = logging.getLogger("sql_logger")
@@ -60,8 +64,17 @@ frontend_flask_layer_handler = logging.handlers.TimedRotatingFileHandler(
 sqldb_Log.addHandler(sql_handler)
 frontend_Log.addHandler(frontend_handler)
 frontend_js_Log.addHandler(frontend_js_handler)
-frontend_flask_Log.addHandler(frontend_flask_layer_handler)
+frontend_flask_Log.addHandler(frontend_flask_handler)
 frontend_flask_layer_Log.addHandler(frontend_flask_layer_handler)
+
+# add formatter to handlers
+sql_handler.setFormatter(formatter)
+frontend_handler.setFormatter(formatter)
+frontend_js_handler.setFormatter(formatter)
+frontend_flask_handler.setFormatter(formatter)
+frontend_flask_layer_handler.setFormatter(formatter)
+
+
 
 # make the log messages
 
@@ -103,7 +116,7 @@ def random_error_level(logger, message):
 
 
 # start of main code
-for i in range(10):
+for i in range(50):
     random_error_message = list_of_potential_errors[random.randint(0, len(list_of_potential_errors)-1)]
     
     match random.randint(0,4):
