@@ -11,3 +11,13 @@
 2025-04-22 16:18:43,560 | frontend.flask.layer |WARNING | The system has given up. Please proceed manually.
 2025-04-22 16:18:43,560 | frontend.flask.layer |ERROR | Something went wrong. Probably your fault.
 2025-04-22 16:18:43,561 | frontend.flask.layer |WARNING | Too many recursive thoughts.
+2025-04-22 16:53:26,970 | frontend.flask |INFO | Too many browser tabs. One is now sentient.
+2025-04-22 16:53:26,973 | frontend.flask.layer |CRITICAL | You've been idle for 3 hours. We assumed you were crying.
+2025-04-22 16:53:26,974 | frontend.flask.layer |CRITICAL | You've been idle for 3 hours. We assumed you were crying.
+2025-04-22 16:53:26,974 | frontend.flask.layer |INFO | Yes, everyone saw that. No, you can't undo it.
+2025-04-22 16:53:26,974 | frontend.flask |ERROR | Something went wrong. Probably your fault.
+2025-04-22 16:53:26,975 | frontend.flask.layer |INFO | Uncaught exception in user behavior.
+2025-04-22 16:53:26,976 | frontend.flask.layer |WARNING | Recollection of why you walked into the room not available.
+2025-04-22 16:53:26,976 | frontend.flask.layer |INFO | Yes, everyone saw that. No, you can't undo it.
+2025-04-22 16:53:26,977 | frontend.flask |INFO | Too many browser tabs. One is now sentient.
+2025-04-22 16:53:26,978 | frontend.flask |INFO | The system has given up. Please proceed manually.
