@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 # URL of the XML data
 date = "2011-05-04"
 #base = random.choice(ratesForBase)
-base = "CNY" # I got this as a base once and I didn't want to constantly download a different base every time
+base = "USD" # I chose to manually control base for the second half of this lab. It made getting specific bases possible
 
 
 def createlistofdates(startdate):
