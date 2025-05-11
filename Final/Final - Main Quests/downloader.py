@@ -14,8 +14,8 @@ from datetime import datetime, timedelta
 
 # URL of the XML data
 date = "2011-05-04"
-#base = random.choice(ratesForBase)
-base = "USD" # I chose to manually control base for the second half of this lab. It made getting specific bases possible
+base = random.choice(ratesForBase)
+#base = "USD" # I chose to manually control base for the second half of this lab. It made getting specific bases possible
 
 
 def createlistofdates(startdate):
@@ -51,11 +51,6 @@ def downloader(base, number_of_threads, startdate):
 
     # makes a list of every day from start date to current
     listofdates = createlistofdates(startdate)
-
-    # setup for threading
-    range_per_process = len(listofdates) // number_of_threads
-    lock = threading.Lock()
-    shared_dict = {}
 
 
     #idk if its good practice or not to nest function definitions like this
@@ -93,7 +88,11 @@ def downloader(base, number_of_threads, startdate):
             shared_dict.update(processdict)
 
 
-
+    # setup for threading
+    range_per_process = len(listofdates) // number_of_threads
+    lock = threading.Lock()
+    shared_dict = {}
+    
     threads = [
         threading.Thread(
             target= downloader_process,
