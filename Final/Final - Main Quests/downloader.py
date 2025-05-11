@@ -81,7 +81,7 @@ def downloader(base, number_of_threads, startdate):
                 
                 #for each currency it'll save the currency its exchanging to and the rate
                 for item in data_dict["channel"]["item"]:
-                    processdict[date][item["targetCurrency"]] = float(item["exchangeRate"].replace(',', ''))
+                    processdict[date][item["targetCurrency"]] = item["exchangeRate"].replace(',', '')
 
 
             # I learned this in a club and I enjoy using it cause it handles everything and tells u what went wrong
