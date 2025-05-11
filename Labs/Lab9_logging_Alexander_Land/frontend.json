@@ -1,52 +1,36 @@
 {
-    "ERROR": {
-        "This seemed like a good idea 3 hours ago.": 2,
-        "Too many browser tabs. One is now sentient.": 1,
-        "Your ambition has been archived or deleted.": 3,
-        "You can't just do that because you feel like it.": 1,
-        "You've been idle for 3 hours. We assumed you were crying.": 2,
-        "Yes, everyone saw that. No, you can't undo it.": 1,
-        "Uncaught exception in user behavior.": 2,
-        "Something went wrong. Probably your fault.": 2,
-        "No idea what you're doing.": 1,
-        "Confidence.exe unexpectedly closed.": 2
-    },
     "WARNING": {
-        "Something went wrong. Probably your fault.": 3,
-        "Sanity module missing.": 1,
+        "Connection lost to reality.": 2,
+        "You've been idle for 3 hours. We assumed you were crying.": 1,
+        "Recollection of why you walked into the room not available.": 1,
         "No idea what you're doing.": 1,
+        "Tried to operate before coffee. Not permitted.": 1,
+        "Uncaught exception in user behavior.": 1,
+        "The system has given up. Please proceed manually.": 1
+    },
+    "ERROR": {
+        "You argued with someone on the internet.": 2,
+        "The system has given up. Please proceed manually.": 1,
+        "Your ambition has been archived or deleted.": 2,
+        "Something went wrong. Probably your fault.": 1,
+        "Yes, everyone saw that. No, you can't undo it.": 1,
+        "Cannot install new personality. Files corrupted.": 1,
         "Thought process overflowed into dream state.": 1,
         "Uncaught exception in user behavior.": 1,
-        "Tried to operate before coffee. Not permitted.": 1,
-        "Recollection of why you walked into the room not available.": 2,
-        "The system has given up. Please proceed manually.": 1,
-        "Too many recursive thoughts.": 2,
-        "Confidence.exe unexpectedly closed.": 1,
-        "Cannot install new personality. Files corrupted.": 1
-    },
-    "INFO": {
-        "Thought process overflowed into dream state.": 2,
-        "No idea what you're doing.": 1,
-        "Your ambition has been archived or deleted.": 1,
-        "Confidence.exe unexpectedly closed.": 3,
-        "Task completion not found.": 2,
-        "Something went wrong. Probably your fault.": 1,
-        "You can't just do that because you feel like it.": 1,
-        "Too many browser tabs. One is now sentient.": 2,
-        "Too many recursive thoughts.": 1,
-        "Yes, everyone saw that. No, you can't undo it.": 2,
-        "Uncaught exception in user behavior.": 1,
-        "The system has given up. Please proceed manually.": 2,
-        "Connection lost to reality.": 1,
-        "Sanity module missing.": 1
+        "Connection lost to reality.": 1
     },
     "CRITICAL": {
-        "Too many recursive thoughts.": 2,
+        "Yes, everyone saw that. No, you can't undo it.": 2,
         "Uncaught exception in user behavior.": 1,
-        "Sanity module missing.": 1,
-        "You've been idle for 3 hours. We assumed you were crying.": 2,
-        "Yes, everyone saw that. No, you can't undo it.": 1,
         "Something went wrong. Probably your fault.": 1,
-        "No idea what you're doing.": 1
+        "Task completion not found.": 1,
+        "Cannot install new personality. Files corrupted.": 2
+    },
+    "INFO": {
+        "Uncaught exception in user behavior.": 2,
+        "Connection lost to reality.": 2,
+        "Tried to operate before coffee. Not permitted.": 1,
+        "This seemed like a good idea 3 hours ago.": 1,
+        "Your ambition has been archived or deleted.": 1
     }
 }
